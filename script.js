@@ -88,6 +88,8 @@ function max(maxarr=[]){
 let maxarrA= [-3,-1,4,-10,11]
 let maxarrB = max(maxarrA)
 console.log(maxarrB)
+
+
 console.log("    6break")
 
 //              #6                  //
