@@ -78,7 +78,7 @@ console.log("    6break")
 
 function max(maxarr=[]){
     let maxnum=maxarr[0];
-    for(let i=1 ; i<maxarr.length ; i++){
+    for(let i=0 ; i<maxarr.length ; i++){
         if (maxarr[i]>maxnum){
             maxnum=maxarr[i]
         }
