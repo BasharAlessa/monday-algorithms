@@ -89,6 +89,30 @@ console.log(xAfrgSum/xAfrg.length)
 console.log("    break")
 
 
-//              #8                  //
+//              #7                  //
+/*Eliminate the Negatives
+Given an array X, write a program that will remove all negative numbers and replace them with a 0. 
+For example, for array X = [2,-1,4,-3] the output of your program should be [2,0,4,0].*/
+
+let e=[2 , -1 , 4 , -3]
+for (let i = 0 ; i<x.length ; i++){
+    if (e[i] < 0){
+        e[i] = 0
+    }
+    console.log (e[i])
+}
+console.log("    break")
 
 
+//              #8              //
+/*Number to String
+Write a program that takes an array of numbers and turns the negative values to strings. 
+For example, for array X = [1,-4,0,-1] the output should be [1,'Turing,0,'Turing'].*/
+let s=[2 , -1 , 4 , -3]
+for (let i = 0 ; i<s.length ; i++){
+    if (s[i] < 0){
+        s[i] = "turing"
+    }
+    console.log (s[i])
+}
+console.log("    break")
