@@ -15,6 +15,7 @@ while(num <= 135) {
     console.log(num)
     num=num + 1
 }
+console.log("    break")
 
 
 //              #2                 //
@@ -35,6 +36,8 @@ while (oddNum <=135){
     oddNum = oddNum + 1
 
 }
+console.log("    break")
+
 
 //            #3                  //
 /*Sum of Printed Numbers
@@ -54,6 +57,8 @@ while (numSumNum <= 135){
     numSumNum = numSumNum + 1
     numSum =  numSumNum + numSum
 }
+console.log("    break")
+
 //                  #4                  //
 /*Print the elements of an array
 Given an array X = [1,4,2,12], write a program that will iterate through the array and print all numbers on the screen. 
@@ -62,6 +67,7 @@ const x = [1 , 4 , 2 , 12]
 for (let i=0 ; i<x.length ; i++){
     console.log (x[i])
 }
+console.log("    break")
 
 //          #5                      //
 // Find Max
