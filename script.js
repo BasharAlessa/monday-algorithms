@@ -62,3 +62,33 @@ const x = [1 , 4 , 2 , 12]
 for (let i=0 ; i<x.length ; i++){
     console.log (x[i])
 }
+
+//          #5                      //
+// Find Max
+
+// Given an array X, write a program that would find the maximum value of the array. Your program should work also work with negative values (eg. X = [2,-3,-1]) and zero.
+
+//coding
+const xMax = [2,-3,-1,0]
+console.log(Math.max(...xMax))
+
+console.log("    break")
+
+//              #6                  //
+/*Get Average
+Given an array X, write a program that will return the average value of all elements in the array.
+For example, for array X = [2,1,3] your output should be 2.*/
+
+let xAfrg = [2 , 1 , 3,10];
+let xAfrgSum= 0;
+
+for (let i= 0 ; i<xAfrg.length ; i++){
+    xAfrgSum = xAfrg[i] + xAfrgSum
+}
+console.log(xAfrgSum/xAfrg.length)
+console.log("    break")
+
+
+//              #8                  //
+
+
