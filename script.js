@@ -54,7 +54,7 @@ while (numSumNum <= 135){
     numSumNum = numSumNum + 1
     numSum =  numSumNum + numSum
 }
-
+//note for ibinu
 //                  #4                  //
 /*Print the elements of an array
 Given an array X = [1,4,2,12], write a program that will iterate through the array and print all numbers on the screen. 
